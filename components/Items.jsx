@@ -28,7 +28,7 @@ function Items({data
         </div> */}
       <div className='items md:m-5 m-0 grid grid-cols-1 sm:grid-cols-2 gap-y-7 lg:gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8'>
         {data.map(card =>
-          <Card key={card.id} name={card.name} iurl={card.plpimaage} purl={card.product_url} discount={card.discount} price={card.price}
+          <Card key={card.id} name={card.name} iurl={card.image[0]} purl={card.product_url} discount={card.discount} price={card.price}
           sprice={card.special_price}
           />
           )}
