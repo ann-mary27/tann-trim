@@ -1,34 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`].
 
-## Getting Started
+Hi, I'm Ann Mary. I did this project as a part of an assignment. 
+This is a NextJS project. I used custom CSS and Tailwind CSS for styles. I have tried my best to make it on every device.
 
-First, run the development server:
+### Briefing on the Dependencies I used:
+* @next/font: for local font (could also be used for google fonts, but i find CSS imports of them to be much simpler)
+* axios: for fetching data from API
+* react-icons: for the icons inserted
+* tailwind-scrollbar-hide: as the name suggests. Really helpful though!
 
-```bash
-npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+###Challenges faced
+* 1 challenge i faced was while running 'npm run build' or 'npx next build', it displayed "build error with EISDIR (Build failed because of webpack errors",
+apparently this happens because your project folder is not in C drive.
+* Also the supposed url of pictures through the doesn't provide images everytime, some result in "Pending Payment". So i used other url from the response.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Deployment
+To see the deployment made on netlify, visit: tann-trim.netlify.app
