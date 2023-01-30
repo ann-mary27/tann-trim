@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Hi, I'm Ann Mary. I did this project as a part of an assignment. 
 This is a NextJS project. I used custom CSS and Tailwind CSS for styles. I have tried my best to make it on every device.
 
-### Briefing on the Dependencies I used:
+###Briefing on the Dependencies I used:
 * @next/font: for local font (could also be used for google fonts, but i find CSS imports of them to be much simpler)
 * axios: for fetching data from API
 * react-icons: for the icons inserted
@@ -16,5 +16,6 @@ apparently this happens because your project folder is not in C drive.
 * Also the supposed url of pictures through the doesn't provide images everytime, some result in "Pending Payment". So i used other url from the response.
 
 
-### Deployment
-To see the deployment made on netlify, visit: tann-trim.netlify.app
+###Deployment
+To see the deployment made on netlify, visit: 
+### tann-trim.netlify.app
