@@ -1,0 +1,121 @@
+.main {
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+
+
+/* @font-face {
+  font-family: 'Comme';
+  font-style: 'Extralight';
+  src: url('Comme-Thin-webfont.woff') format('woff');
+} */
+
+.hrow1 p {
+  letter-spacing: 0.3em;
+  /* line-height: 0; */
+  font-size: 18px;
+  padding: 5px 10px;
+  font-weight: 10;
+}
+
+.hrow1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hrow2 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.hicons {
+  padding-left: 10px;
+  display: flex;
+  font-size: 18px;
+}
+
+.hicons * {
+  margin: .5em;
+  cursor: pointer;
+}
+
+.header span {
+  font-family: 'Encode Sans', sans-serif;
+  margin: 10px;
+  font-size: 14px;
+  padding: 0 0.4rem;
+  cursor: pointer;
+}
+
+
+.hrow3 {
+  display: flex;
+  padding: 10px 10px;
+  overflow-x: hidden;
+}
+
+.item-info span {
+  font-size: 16px;
+}
+
+.row3item {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px 0px;
+  cursor: pointer;
+  float: bottom;
+  /* max-height: 100px; */
+}
+
+.row3item img {
+  height: auto;
+  width: auto;
+}
+
+.row3item * {
+  font-size: 13px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width:680px) {
+  .header span {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  .item-info {
+    margin: 0;
+  }
+
+  .header span {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 330px) {
+  .hrow2{
+    display: grid;
+    gap:5px;
+    grid-template-columns: repeat(3,1fr );
+    justify-content: space-around;
+  
+  }
+}
+
+/* Items Page Styles */
+.itemsInfo {
+  font-size: 16px;
+}
