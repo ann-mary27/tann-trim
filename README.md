@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`].
 
 Hi, I'm Ann Mary. I did this project as a part of an assignment. 
-This is a NextJS project. I used custom CSS and Tailwind CSS for styles. I have tried my best to make it on every device.
+This is a NextJS project. I used custom CSS and Tailwind CSS for styles. I have tried my best to make it responsive on every device.
 
 ###Briefing on the Dependencies I used:
 * @next/font: for local font (could also be used for google fonts, but i find CSS imports of them to be much simpler)
