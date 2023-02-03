@@ -18,4 +18,4 @@ apparently this happens because your project folder is not in C drive.
 
 ## Deployment
 To see the deployment made on netlify, visit: 
-### tann-trim.netlify.app
+### [tann-trim.netlify.app](https://tann-trim.netlify.app)
